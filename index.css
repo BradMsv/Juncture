@@ -1,0 +1,314 @@
+input:focus, textarea:focus, select:focus{
+		outline: none;
+}
+
+button:focus {outline:0;}
+
+#iphone {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 387px;
+	height: 738.4px;
+	background-image: url(imgs/iphone.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#display {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 0px;
+	margin: auto;
+	background-image: url(imgs/homepage.png);
+	background-size: cover;
+	width: 80%;
+	height: 75%;
+}
+
+#app {
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	border-radius: 10px;
+	background-image: url(imgs/juncture.jpg);
+	background-position: center;
+	background-size: 100%;
+	left: 30%;
+	bottom: 23%;
+}
+
+#appDisp {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 0px;
+	margin: auto;
+	background: linear-gradient(dodgerblue, white);
+	background-size: cover;
+	width: 80%;
+	height: 75%;
+	opacity: 0;
+	transition: all 0.3s;
+	z-index: -1;
+}
+
+#loading{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 0px;
+	margin: auto;
+	background-color: white;
+	background-image: url(imgs/loadinggif.gif);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 75%;
+	opacity: 0;
+	transition: all 0.3s;
+	z-index: -1;
+}
+
+#appName {
+	position: absolute;
+	left: 5px;
+	bottom: -20px;
+	font-size: 10pt;
+	color: white;
+}
+
+#homeBut {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 27px;
+	margin: auto;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background: radial-gradient(black, darkgrey);
+}
+
+#mainMenu {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+}
+
+#settingsPage {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#favesPage {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#sortBy {
+	position: absolute;
+	top: 15%;
+	left: 5%;
+}
+
+#dropDown {
+	position: absolute;
+	top: 15%;
+	left: 25%;
+}
+
+#fave1 {
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	padding: 10px;
+	font: 15px bold;
+	border: solid 2px black;
+	border-radius: 5px;
+}
+
+#fave2 {
+	position: absolute;
+	top: 32%;
+	left: 5%;
+	padding: 10px;
+	font: 15px bold;
+	border: solid 2px black;
+	border-radius: 5px;
+}
+
+#settingsBut {
+	position: absolute;
+	background-image: url(imgs/settings.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	left: 5px;
+	top: 5px;
+	width: 35px;
+	height: 35px;
+}
+
+#backToMain {
+	position: absolute;
+	background-image: url(imgs/home.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	left: 5px;
+	top: 5px;
+	width: 35px;
+	height: 35px;
+}
+
+#favesBut {
+	position: absolute;
+	background-image: url(imgs/favorites.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	right: 5px;
+	top: 5px;
+	width: 35px;
+	height: 35px;
+}
+
+#searchBox {
+	position: absolute;
+	border-radius: 5px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	top: 5px;
+	width: 65%;
+	height: 25px;
+	padding-left: 10px;
+}
+
+.difficulties {
+	position: relative;
+	margin-top: 20px;
+	padding: 5px;
+	left: 5%;
+	top: 10%;
+	width: 90%;
+	height: 25%;
+}
+
+#loggedInAs {
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	padding: 10px;
+	font: 15px bold;
+	border: solid 2px black;
+	border-radius: 5px;
+}
+
+#numFaves {
+	position: absolute;
+	top: 35%;
+	left: 5%;
+	padding: 10px;
+	font: 15px bold;
+	border: solid 2px black;
+	border-radius: 5px;
+}
+
+.settButs {
+	position: absolute;
+	margin-top: 20px;
+	padding: 5px;
+	left: 5%;
+	width: 90%;
+	height: 5%;
+}
+
+#changePass {
+	bottom: 26%;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font: 15px bold;
+	box-shadow: 0 2.5px 1px #000;
+	background:  radial-gradient(white, lightgrey);
+}
+
+#clearFaves {
+	bottom: 19%;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font: 15px bold;
+	box-shadow: 0 2.5px 1px #000;
+	background:  radial-gradient(white, lightgrey);
+}
+
+#clearHistory {
+	bottom: 12%;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font: 15px bold;
+	box-shadow: 0 2.5px 1px #000;
+	background:  radial-gradient(white, lightgrey);
+}
+
+#logOut {
+	bottom: 5%;
+	background:  radial-gradient(red, darkred);
+	border-radius: 5px;
+	text-transform: uppercase;
+	font: 15px bold;
+	box-shadow: 0 2.5px 1px #000;
+	color: white;
+}
+
+#easy {
+	background: radial-gradient(lime, darkgreen);
+	border-radius: 10px;
+	opacity: 0.7;
+	text-transform: uppercase;
+	font: 30px bold;
+	box-shadow: 0 2.5px 1px #000;
+	color: white;
+}
+
+#medium {
+	background: radial-gradient(yellow, orange);
+	border-radius: 10px;
+	opacity: 0.7;
+	text-transform: uppercase;
+	font: 30px bold;
+	box-shadow: 0 2.5px 1px #000;
+	color: white;
+}
+
+#hard {
+	background: radial-gradient(red, darkred);
+	border-radius: 10px;
+	opacity: 0.7;
+	text-transform: uppercase;
+	font: 30px bold;
+	box-shadow: 0 2.5px 1px #000;
+	color: white;
+}
